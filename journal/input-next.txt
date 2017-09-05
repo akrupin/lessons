@@ -1,0 +1,12 @@
+Arseniy
+english: 5 2 1 1 5 5
+math: 5 5 4 5
+
+Sasha
+russian: 5 5 5 4 4 3 2 1 1 1
+math: 3 2 3 2 3 2
+
+Petya
+russian: 5 5 5 4 4
+english: 5 2 1 1 5 5
+math: 5 5 4 5

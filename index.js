@@ -20,10 +20,10 @@ function main() {
     var result
     var i
 
-    file1 = fs.readFileSync('./input-1.txt', { encoding: 'utf-8' })
+    file1 = fs.readFileSync('./input.txt-1.txt', { encoding: 'utf-8' })
     lines1 = file1.split('\n')
 
-    file2 = fs.readFileSync('./input-2.txt', { encoding: 'utf-8' })
+    file2 = fs.readFileSync('./input.txt-2.txt', { encoding: 'utf-8' })
     lines2 = file2.split('\n')
 
     if (lines1.length < lines2.length) {
