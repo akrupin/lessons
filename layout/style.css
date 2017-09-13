@@ -1,0 +1,36 @@
+body {
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+    background: #222222;
+}
+
+#wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: white;
+    width: 600px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -300px;
+}
+
+#snake-head {
+    width: 20px;
+    height: 20px;
+    background: #cc0000;
+    position: absolute;
+    border-radius: 50%;
+    /*top: 200px;*/
+    /*left: 200px;*/
+}
+
+.snake-body {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #ff0000;
+    /*top: 200px;*/
+    /*left: 200px;*/
+}
