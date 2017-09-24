@@ -13,9 +13,17 @@ body {
     margin-top: -200px;
     margin-left: -200px
 
+
 }
 
-input:checked + span { background: red }
+.apple {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background: #00aa00;
+    border-radius: 50%;
+    z-index: 1;
+}
 
 #snake-head {
     background: #cc0000;
@@ -25,4 +33,5 @@ input:checked + span { background: red }
     top: 100px;
     left: 100px;
     border-radius: 50%;
+    z-index: 100;
 }
